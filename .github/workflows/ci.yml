@@ -27,7 +27,6 @@ jobs:
     - name: Run tests
       run: npm test
 
-    # Remove or update the build step as necessary
     - name: Build project
       run: npm run build
       if: success()
